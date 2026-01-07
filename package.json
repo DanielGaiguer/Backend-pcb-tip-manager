@@ -1,0 +1,25 @@
+{
+  "name": "backend-pcb-tip-manager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielGaiguer/Backend-pcb-tip-manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielGaiguer/Backend-pcb-tip-manager/issues"
+  },
+  "homepage": "https://github.com/DanielGaiguer/Backend-pcb-tip-manager#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "node-fetch": "^3.3.2"
+  }
+}
