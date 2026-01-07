@@ -57,5 +57,5 @@ app.get('/sync', async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Backend rondando na porta ${PORT}`);
+  console.log(`Backend rondando na porta ${PORT}.`);
 });
