@@ -56,6 +56,10 @@ app.get('/sync', async (req, res) => {
   }
 });
 
+app.get('/', (req, res) => {
+  res.send('Servidor rodando! Use POST /sync');
+});
+
 app.listen(PORT, () => {
   console.log(`Backend rondando na porta ${PORT}.`);
 });
