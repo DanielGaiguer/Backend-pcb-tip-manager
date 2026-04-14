@@ -1,7 +1,3 @@
-import dotenv from "dotenv";
-
-dotenv.config();
-
 const GOOGLE_SHEETS_URL = process.env.GOOGLE_SHEETS_URL;
 
 export default async function handler(req, res) {
